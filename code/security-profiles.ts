@@ -7,7 +7,7 @@ async function main() {
 	const client: any = await createSandbox({
 		provider: 'docker',
 		defaults: {
-			image: 'lubnaibrahimu/swe-agent:latest',
+			image: 'lubnaibrahimu/swe-base:latest',
 			cpu: 2,
 			memory: 4096
 		}
