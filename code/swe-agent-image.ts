@@ -6,7 +6,7 @@ const { createSandbox } = require('@syntera-ai/sandbox');
 async function main() {
 	const sweClient: any = await createSandbox({
 		provider: 'docker',
-		defaults: { image: 'lubnaibrahimu/swe-base:latest', cpu: 2, memory: 4096 }
+		defaults: { image: 'lubnaibrahimu/swe-agent:latest', cpu: 2, memory: 4096 }
 	});
 
 	const sweSandbox: any = await sweClient.create();
